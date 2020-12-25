@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1608882400,,"wq!"
+|2,0,1608885342,,"wq!"
 :q!
 |2,0,1608829039,,"q!"
 
@@ -27,40 +27,60 @@
 # Registers:
 
 # File marks:
-'0  38  17  ~/deployment-ex3.yml
-|4,48,38,17,1608882400,"~/deployment-ex3.yml"
-'1  11  17  ~/service-ex.yml
-|4,49,11,17,1608872909,"~/service-ex.yml"
-'2  13  18  ~/service-ex.yml
-|4,50,13,18,1608872869,"~/service-ex.yml"
+'0  28  26  ~/ds-ex1.yml
+|4,48,28,26,1608885342,"~/ds-ex1.yml"
+'1  38  17  ~/deployment-ex3.yml
+|4,49,38,17,1608882400,"~/deployment-ex3.yml"
+'2  11  17  ~/service-ex.yml
+|4,50,11,17,1608872909,"~/service-ex.yml"
 '3  13  18  ~/service-ex.yml
 |4,51,13,18,1608872869,"~/service-ex.yml"
-'4  20  19  ~/rs-ex.yml
-|4,52,20,19,1608872243,"~/rs-ex.yml"
-'5  21  0  ~/rs-ex.yml
-|4,53,21,0,1608829778,"~/rs-ex.yml"
+'4  13  18  ~/service-ex.yml
+|4,52,13,18,1608872869,"~/service-ex.yml"
+'5  20  19  ~/rs-ex.yml
+|4,53,20,19,1608872243,"~/rs-ex.yml"
 '6  21  0  ~/rs-ex.yml
 |4,54,21,0,1608829778,"~/rs-ex.yml"
-'7  6  12  ~/replicationController.yml
-|4,55,6,12,1608829131,"~/replicationController.yml"
-'8  20  28  ~/replicationController.yml
-|4,56,20,28,1608829039,"~/replicationController.yml"
+'7  21  0  ~/rs-ex.yml
+|4,55,21,0,1608829778,"~/rs-ex.yml"
+'8  6  12  ~/replicationController.yml
+|4,56,6,12,1608829131,"~/replicationController.yml"
 '9  20  28  ~/replicationController.yml
 |4,57,20,28,1608829039,"~/replicationController.yml"
 
 # Jumplist (newest first):
+-'  28  26  ~/ds-ex1.yml
+|4,39,28,26,1608885342,"~/ds-ex1.yml"
+-'  1  0  ~/ds-ex1.yml
+|4,39,1,0,1608885321,"~/ds-ex1.yml"
 -'  38  17  ~/deployment-ex3.yml
 |4,39,38,17,1608882400,"~/deployment-ex3.yml"
+-'  38  17  ~/deployment-ex3.yml
+|4,39,38,17,1608882400,"~/deployment-ex3.yml"
+-'  1  0  ~/deployment-ex3.yml
+|4,39,1,0,1608882371,"~/deployment-ex3.yml"
 -'  1  0  ~/deployment-ex3.yml
 |4,39,1,0,1608882371,"~/deployment-ex3.yml"
 -'  11  17  ~/service-ex.yml
 |4,39,11,17,1608872909,"~/service-ex.yml"
 -'  11  17  ~/service-ex.yml
 |4,39,11,17,1608872909,"~/service-ex.yml"
+-'  11  17  ~/service-ex.yml
+|4,39,11,17,1608872909,"~/service-ex.yml"
+-'  11  17  ~/service-ex.yml
+|4,39,11,17,1608872909,"~/service-ex.yml"
 -'  13  18  ~/service-ex.yml
 |4,39,13,18,1608872897,"~/service-ex.yml"
 -'  13  18  ~/service-ex.yml
 |4,39,13,18,1608872897,"~/service-ex.yml"
+-'  13  18  ~/service-ex.yml
+|4,39,13,18,1608872897,"~/service-ex.yml"
+-'  13  18  ~/service-ex.yml
+|4,39,13,18,1608872897,"~/service-ex.yml"
+-'  13  18  ~/service-ex.yml
+|4,39,13,18,1608872869,"~/service-ex.yml"
+-'  13  18  ~/service-ex.yml
+|4,39,13,18,1608872869,"~/service-ex.yml"
 -'  13  18  ~/service-ex.yml
 |4,39,13,18,1608872869,"~/service-ex.yml"
 -'  13  18  ~/service-ex.yml
@@ -73,6 +93,30 @@
 |4,39,1,0,1608872654,"~/service-ex.yml"
 -'  1  0  ~/service-ex.yml
 |4,39,1,0,1608872654,"~/service-ex.yml"
+-'  1  0  ~/service-ex.yml
+|4,39,1,0,1608872654,"~/service-ex.yml"
+-'  1  0  ~/service-ex.yml
+|4,39,1,0,1608872654,"~/service-ex.yml"
+-'  1  0  ~/service-ex.yml
+|4,39,1,0,1608872654,"~/service-ex.yml"
+-'  1  0  ~/service-ex.yml
+|4,39,1,0,1608872654,"~/service-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
+-'  20  19  ~/rs-ex.yml
+|4,39,20,19,1608872243,"~/rs-ex.yml"
 -'  20  19  ~/rs-ex.yml
 |4,39,20,19,1608872243,"~/rs-ex.yml"
 -'  20  19  ~/rs-ex.yml
@@ -105,6 +149,38 @@
 |4,39,21,0,1608872212,"~/rs-ex.yml"
 -'  21  0  ~/rs-ex.yml
 |4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608872212,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
+-'  21  0  ~/rs-ex.yml
+|4,39,21,0,1608829778,"~/rs-ex.yml"
 -'  21  0  ~/rs-ex.yml
 |4,39,21,0,1608829778,"~/rs-ex.yml"
 -'  21  0  ~/rs-ex.yml
@@ -153,104 +229,35 @@
 |4,39,1,0,1608829730,"~/rs-ex.yml"
 -'  1  0  ~/rs-ex.yml
 |4,39,1,0,1608829730,"~/rs-ex.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  6  12  ~/replicationController.yml
-|4,39,6,12,1608829131,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
--'  20  28  ~/replicationController.yml
-|4,39,20,28,1608829116,"~/replicationController.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  1  0  ~/rs-ex.yml
+|4,39,1,0,1608829730,"~/rs-ex.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/ds-ex1.yml
+	*	1608885339	0
+	"	28	26
+	^	28	27
+	.	28	26
+	+	28	26
 
 > ~/deployment-ex3.yml
 	*	1608882392	0
