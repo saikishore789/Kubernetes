@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1608885342,,"wq!"
+|2,0,1609194927,,"wq!"
 :q!
 |2,0,1608829039,,"q!"
 
@@ -27,230 +27,266 @@
 # Registers:
 
 # File marks:
-'0  28  26  ~/ds-ex1.yml
-|4,48,28,26,1608885342,"~/ds-ex1.yml"
-'1  38  17  ~/deployment-ex3.yml
-|4,49,38,17,1608882400,"~/deployment-ex3.yml"
-'2  11  17  ~/service-ex.yml
-|4,50,11,17,1608872909,"~/service-ex.yml"
-'3  13  18  ~/service-ex.yml
-|4,51,13,18,1608872869,"~/service-ex.yml"
-'4  13  18  ~/service-ex.yml
-|4,52,13,18,1608872869,"~/service-ex.yml"
-'5  20  19  ~/rs-ex.yml
-|4,53,20,19,1608872243,"~/rs-ex.yml"
-'6  21  0  ~/rs-ex.yml
-|4,54,21,0,1608829778,"~/rs-ex.yml"
-'7  21  0  ~/rs-ex.yml
-|4,55,21,0,1608829778,"~/rs-ex.yml"
-'8  6  12  ~/replicationController.yml
-|4,56,6,12,1608829131,"~/replicationController.yml"
-'9  20  28  ~/replicationController.yml
-|4,57,20,28,1608829039,"~/replicationController.yml"
+'0  16  31  ~/nodeName.yml
+|4,48,16,31,1609194927,"~/nodeName.yml"
+'1  16  28  ~/nodeName.yml
+|4,49,16,28,1609194507,"~/nodeName.yml"
+'2  10  21  ~/compute-resources-demo.yml
+|4,50,10,21,1609194466,"~/compute-resources-demo.yml"
+'3  19  16  ~/nodeName.yml
+|4,51,19,16,1609193798,"~/nodeName.yml"
+'4  19  16  ~/nodeName.yml
+|4,52,19,16,1609193798,"~/nodeName.yml"
+'5  19  16  ~/nodeName.yml
+|4,53,19,16,1609193798,"~/nodeName.yml"
+'6  19  16  ~/nodeName.yml
+|4,54,19,16,1609193798,"~/nodeName.yml"
+'7  10  21  ~/compute-resources-demo.yml
+|4,55,10,21,1609192417,"~/compute-resources-demo.yml"
+'8  11  30  ~/object-counts-demo.yml
+|4,56,11,30,1609190280,"~/object-counts-demo.yml"
+'9  22  57  ~/cronjob-ex1.yml
+|4,57,22,57,1608905675,"~/cronjob-ex1.yml"
 
 # Jumplist (newest first):
--'  28  26  ~/ds-ex1.yml
-|4,39,28,26,1608885342,"~/ds-ex1.yml"
--'  1  0  ~/ds-ex1.yml
-|4,39,1,0,1608885321,"~/ds-ex1.yml"
--'  38  17  ~/deployment-ex3.yml
-|4,39,38,17,1608882400,"~/deployment-ex3.yml"
--'  38  17  ~/deployment-ex3.yml
-|4,39,38,17,1608882400,"~/deployment-ex3.yml"
--'  1  0  ~/deployment-ex3.yml
-|4,39,1,0,1608882371,"~/deployment-ex3.yml"
--'  1  0  ~/deployment-ex3.yml
-|4,39,1,0,1608882371,"~/deployment-ex3.yml"
--'  11  17  ~/service-ex.yml
-|4,39,11,17,1608872909,"~/service-ex.yml"
--'  11  17  ~/service-ex.yml
-|4,39,11,17,1608872909,"~/service-ex.yml"
--'  11  17  ~/service-ex.yml
-|4,39,11,17,1608872909,"~/service-ex.yml"
--'  11  17  ~/service-ex.yml
-|4,39,11,17,1608872909,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872897,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872897,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872897,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872897,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872869,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872869,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872869,"~/service-ex.yml"
--'  13  18  ~/service-ex.yml
-|4,39,13,18,1608872869,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  1  0  ~/service-ex.yml
-|4,39,1,0,1608872654,"~/service-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  20  19  ~/rs-ex.yml
-|4,39,20,19,1608872243,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608872212,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  21  0  ~/rs-ex.yml
-|4,39,21,0,1608829778,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
--'  1  0  ~/rs-ex.yml
-|4,39,1,0,1608829730,"~/rs-ex.yml"
+-'  16  31  ~/nodeName.yml
+|4,39,16,31,1609194927,"~/nodeName.yml"
+-'  16  28  ~/nodeName.yml
+|4,39,16,28,1609194507,"~/nodeName.yml"
+-'  19  16  ~/nodeName.yml
+|4,39,19,16,1609194474,"~/nodeName.yml"
+-'  19  16  ~/nodeName.yml
+|4,39,19,16,1609194474,"~/nodeName.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
+-'  19  16  ~/nodeName.yml
+|4,39,19,16,1609193798,"~/nodeName.yml"
+-'  19  16  ~/nodeName.yml
+|4,39,19,16,1609193798,"~/nodeName.yml"
+-'  1  0  ~/nodeName.yml
+|4,39,1,0,1609193769,"~/nodeName.yml"
+-'  1  0  ~/nodeName.yml
+|4,39,1,0,1609193769,"~/nodeName.yml"
+-'  1  0  ~/nodeName.yml
+|4,39,1,0,1609193769,"~/nodeName.yml"
+-'  1  0  ~/nodeName.yml
+|4,39,1,0,1609193769,"~/nodeName.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  10  21  ~/compute-resources-demo.yml
+|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  1  0  ~/compute-resources-demo.yml
+|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  11  30  ~/object-counts-demo.yml
+|4,39,11,30,1609190280,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  1  0  ~/object-counts-demo.yml
+|4,39,1,0,1609190247,"~/object-counts-demo.yml"
+-'  22  57  ~/cronjob-ex1.yml
+|4,39,22,57,1608905675,"~/cronjob-ex1.yml"
+-'  22  57  ~/cronjob-ex1.yml
+|4,39,22,57,1608905675,"~/cronjob-ex1.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/nodeName.yml
+	*	1609194910	0
+	"	16	31
+	^	16	32
+	.	16	31
+	+	19	16
+	+	16	31
+
+> ~/compute-resources-demo.yml
+	*	1609194453	0
+	"	10	21
+	^	10	22
+	.	10	21
+	+	10	21
+
+> ~/object-counts-demo.yml
+	*	1609190263	0
+	"	11	30
+	^	11	31
+	.	11	30
+	+	11	30
+
+> ~/cronjob-ex1.yml
+	*	1608905669	0
+	"	22	57
+	^	22	58
+	.	22	57
+	+	22	57
+
+> ~/job-ex1.yml
+	*	1608905049	0
+	"	18	25
+	^	18	26
+	.	18	25
+	+	18	25
 
 > ~/ds-ex1.yml
 	*	1608885339	0
