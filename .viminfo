@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1610112730,,"wq!"
+|2,0,1610145210,,"wq!"
 :%d
 |2,0,1610095149,,"%d"
 :q!
@@ -48,38 +48,86 @@
 |3,1,1,1,17,0,1610095149,"piVersion: v1","kind: Pod","metadata:","  name: nginx","  labels:","     tier: frontend","spec:","  containers:","   - name: nginx","     image: nginx","     ports:","      - containerPort: 80","     volumeMounts:","       - name: nginx-vol","         mountPath: /usr/share/nginx/html/","  volumes:","   - name: nginx-"
 
 # File marks:
-'0  6  27  ~/pvc-hostpath-pod.yml
-|4,48,6,27,1610112730,"~/pvc-hostpath-pod.yml"
-'1  9  14  ~/pvc-hostpath-pod.yml
-|4,49,9,14,1610097954,"~/pvc-hostpath-pod.yml"
-'2  8  14  ~/pvc-hostpath-pod.yml
-|4,50,8,14,1610097954,"~/pvc-hostpath-pod.yml"
-'3  14  20  ~/pvc-hostpath-pod.yml
-|4,51,14,20,1610097750,"~/pvc-hostpath-pod.yml"
-'4  14  20  ~/pvc-hostpath-pod.yml
-|4,52,14,20,1610097750,"~/pvc-hostpath-pod.yml"
-'5  13  20  ~/pvc-hostpath-pod.yml
-|4,53,13,20,1610097750,"~/pvc-hostpath-pod.yml"
-'6  13  20  ~/pvc-hostpath-pod.yml
-|4,54,13,20,1610097750,"~/pvc-hostpath-pod.yml"
-'7  18  23  ~/pvc-hostpath-pod.yml
-|4,55,18,23,1610096973,"~/pvc-hostpath-pod.yml"
-'8  16  23  ~/pvc-hostpath-pod.yml
-|4,56,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+'0  17  24  ~/pod-sc.yml
+|4,48,17,24,1610145210,"~/pod-sc.yml"
+'1  11  21  ~/pvc-sc-standard.yml
+|4,49,11,21,1610144611,"~/pvc-sc-standard.yml"
+'2  6  27  ~/pvc-hostpath-pod.yml
+|4,50,6,27,1610112730,"~/pvc-hostpath-pod.yml"
+'3  9  14  ~/pvc-hostpath-pod.yml
+|4,51,9,14,1610097954,"~/pvc-hostpath-pod.yml"
+'4  8  14  ~/pvc-hostpath-pod.yml
+|4,52,8,14,1610097954,"~/pvc-hostpath-pod.yml"
+'5  14  20  ~/pvc-hostpath-pod.yml
+|4,53,14,20,1610097750,"~/pvc-hostpath-pod.yml"
+'6  14  20  ~/pvc-hostpath-pod.yml
+|4,54,14,20,1610097750,"~/pvc-hostpath-pod.yml"
+'7  13  20  ~/pvc-hostpath-pod.yml
+|4,55,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+'8  13  20  ~/pvc-hostpath-pod.yml
+|4,56,13,20,1610097750,"~/pvc-hostpath-pod.yml"
 '9  18  23  ~/pvc-hostpath-pod.yml
 |4,57,18,23,1610096973,"~/pvc-hostpath-pod.yml"
 
 # Jumplist (newest first):
+-'  17  24  ~/pod-sc.yml
+|4,39,17,24,1610145210,"~/pod-sc.yml"
+-'  1  0  ~/pod-sc.yml
+|4,39,1,0,1610145186,"~/pod-sc.yml"
+-'  11  21  ~/pvc-sc-standard.yml
+|4,39,11,21,1610144611,"~/pvc-sc-standard.yml"
+-'  11  21  ~/pvc-sc-standard.yml
+|4,39,11,21,1610144611,"~/pvc-sc-standard.yml"
+-'  1  0  ~/pvc-sc-standard.yml
+|4,39,1,0,1610144587,"~/pvc-sc-standard.yml"
+-'  1  0  ~/pvc-sc-standard.yml
+|4,39,1,0,1610144587,"~/pvc-sc-standard.yml"
+-'  6  27  ~/pvc-hostpath-pod.yml
+|4,39,6,27,1610112730,"~/pvc-hostpath-pod.yml"
+-'  6  27  ~/pvc-hostpath-pod.yml
+|4,39,6,27,1610112730,"~/pvc-hostpath-pod.yml"
+-'  6  27  ~/pvc-hostpath-pod.yml
+|4,39,6,27,1610112730,"~/pvc-hostpath-pod.yml"
 -'  6  27  ~/pvc-hostpath-pod.yml
 |4,39,6,27,1610112730,"~/pvc-hostpath-pod.yml"
 -'  9  14  ~/pvc-hostpath-pod.yml
 |4,39,9,14,1610112656,"~/pvc-hostpath-pod.yml"
+-'  9  14  ~/pvc-hostpath-pod.yml
+|4,39,9,14,1610112656,"~/pvc-hostpath-pod.yml"
+-'  9  14  ~/pvc-hostpath-pod.yml
+|4,39,9,14,1610112656,"~/pvc-hostpath-pod.yml"
+-'  9  14  ~/pvc-hostpath-pod.yml
+|4,39,9,14,1610112656,"~/pvc-hostpath-pod.yml"
+-'  8  14  ~/pvc-hostpath-pod.yml
+|4,39,8,14,1610097954,"~/pvc-hostpath-pod.yml"
+-'  8  14  ~/pvc-hostpath-pod.yml
+|4,39,8,14,1610097954,"~/pvc-hostpath-pod.yml"
+-'  8  14  ~/pvc-hostpath-pod.yml
+|4,39,8,14,1610097954,"~/pvc-hostpath-pod.yml"
 -'  8  14  ~/pvc-hostpath-pod.yml
 |4,39,8,14,1610097954,"~/pvc-hostpath-pod.yml"
 -'  14  20  ~/pvc-hostpath-pod.yml
 |4,39,14,20,1610097939,"~/pvc-hostpath-pod.yml"
 -'  13  20  ~/pvc-hostpath-pod.yml
 |4,39,13,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  14  20  ~/pvc-hostpath-pod.yml
+|4,39,14,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  14  20  ~/pvc-hostpath-pod.yml
+|4,39,14,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  14  20  ~/pvc-hostpath-pod.yml
+|4,39,14,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097750,"~/pvc-hostpath-pod.yml"
 -'  13  20  ~/pvc-hostpath-pod.yml
 |4,39,13,20,1610097750,"~/pvc-hostpath-pod.yml"
 -'  18  23  ~/pvc-hostpath-pod.yml
@@ -88,6 +136,42 @@
 |4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
 -'  17  23  ~/pvc-hostpath-pod.yml
 |4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  18  23  ~/pvc-hostpath-pod.yml
+|4,39,18,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  18  23  ~/pvc-hostpath-pod.yml
+|4,39,18,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  18  23  ~/pvc-hostpath-pod.yml
+|4,39,18,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  16  23  ~/pvc-hostpath-pod.yml
+|4,39,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  16  23  ~/pvc-hostpath-pod.yml
+|4,39,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  16  23  ~/pvc-hostpath-pod.yml
+|4,39,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
 -'  16  23  ~/pvc-hostpath-pod.yml
 |4,39,16,23,1610096973,"~/pvc-hostpath-pod.yml"
 -'  15  23  ~/pvc-hostpath-pod.yml
@@ -102,6 +186,30 @@
 |4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
 -'  1  0  ~/pvc-hostpath-pod.yml
 |4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
 -'  12  19  ~/pvc.yml
 |4,39,12,19,1610096441,"~/pvc.yml"
 -'  12  19  ~/pvc.yml
@@ -134,144 +242,50 @@
 |4,39,12,19,1610096441,"~/pvc.yml"
 -'  12  19  ~/pvc.yml
 |4,39,12,19,1610096441,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  1  0  ~/pvc.yml
-|4,39,1,0,1610096428,"~/pvc.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  16  0  ~/pv.yml
-|4,39,16,0,1610095967,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
--'  1  0  ~/pv.yml
-|4,39,1,0,1610095803,"~/pv.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/pod-sc.yml
+	*	1610145203	0
+	"	17	24
+	^	17	25
+	.	17	24
+	+	17	24
+
+> ~/pvc-sc-standard.yml
+	*	1610144602	0
+	"	11	21
+	^	11	22
+	.	11	21
+	+	11	21
 
 > ~/pvc-hostpath-pod.yml
 	*	1610112721	0

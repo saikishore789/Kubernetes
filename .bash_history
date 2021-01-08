@@ -387,3 +387,21 @@ kubectl get pvc
 kubectl get pods
 kubectl exec -it pvc-pod -- sh
 exit
+git add .
+git commit -m "storage examples"
+git push origin master
+ls
+vi pvc-hostpath-pod.yml
+kubectl create -f pvc-hostpath-pod.yml
+kubectl get pods -o wide
+kubectl get pods
+kubectl get pods -o wide
+kubectl exec -it pvc-pod -- sh
+kubectl get pods
+kubectl delete pods --all
+kubectl get pods -o wide
+ls
+cat pvc-hostpath-pod.yml
+kubectl create -f 1111pvc-hostpath-pod.yml
+kubectl create -f pvc-hostpath-pod.yml
+kubectl get pods -o wide
