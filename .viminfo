@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1609194927,,"wq!"
+|2,0,1610112730,,"wq!"
+:%d
+|2,0,1610095149,,"%d"
 :q!
 |2,0,1608829039,,"q!"
 
@@ -25,232 +27,332 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	piVersion: v1
+	kind: Pod
+	metadata:
+	  name: nginx
+	  labels:
+	     tier: frontend
+	spec:
+	  containers:
+	   - name: nginx
+	     image: nginx
+	     ports:
+	      - containerPort: 80
+	     volumeMounts:
+	       - name: nginx-vol
+	         mountPath: /usr/share/nginx/html/
+	  volumes:
+	   - name: nginx-
+|3,1,1,1,17,0,1610095149,"piVersion: v1","kind: Pod","metadata:","  name: nginx","  labels:","     tier: frontend","spec:","  containers:","   - name: nginx","     image: nginx","     ports:","      - containerPort: 80","     volumeMounts:","       - name: nginx-vol","         mountPath: /usr/share/nginx/html/","  volumes:","   - name: nginx-"
 
 # File marks:
-'0  16  31  ~/nodeName.yml
-|4,48,16,31,1609194927,"~/nodeName.yml"
-'1  16  28  ~/nodeName.yml
-|4,49,16,28,1609194507,"~/nodeName.yml"
-'2  10  21  ~/compute-resources-demo.yml
-|4,50,10,21,1609194466,"~/compute-resources-demo.yml"
-'3  19  16  ~/nodeName.yml
-|4,51,19,16,1609193798,"~/nodeName.yml"
-'4  19  16  ~/nodeName.yml
-|4,52,19,16,1609193798,"~/nodeName.yml"
-'5  19  16  ~/nodeName.yml
-|4,53,19,16,1609193798,"~/nodeName.yml"
-'6  19  16  ~/nodeName.yml
-|4,54,19,16,1609193798,"~/nodeName.yml"
-'7  10  21  ~/compute-resources-demo.yml
-|4,55,10,21,1609192417,"~/compute-resources-demo.yml"
-'8  11  30  ~/object-counts-demo.yml
-|4,56,11,30,1609190280,"~/object-counts-demo.yml"
-'9  22  57  ~/cronjob-ex1.yml
-|4,57,22,57,1608905675,"~/cronjob-ex1.yml"
+'0  6  27  ~/pvc-hostpath-pod.yml
+|4,48,6,27,1610112730,"~/pvc-hostpath-pod.yml"
+'1  9  14  ~/pvc-hostpath-pod.yml
+|4,49,9,14,1610097954,"~/pvc-hostpath-pod.yml"
+'2  8  14  ~/pvc-hostpath-pod.yml
+|4,50,8,14,1610097954,"~/pvc-hostpath-pod.yml"
+'3  14  20  ~/pvc-hostpath-pod.yml
+|4,51,14,20,1610097750,"~/pvc-hostpath-pod.yml"
+'4  14  20  ~/pvc-hostpath-pod.yml
+|4,52,14,20,1610097750,"~/pvc-hostpath-pod.yml"
+'5  13  20  ~/pvc-hostpath-pod.yml
+|4,53,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+'6  13  20  ~/pvc-hostpath-pod.yml
+|4,54,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+'7  18  23  ~/pvc-hostpath-pod.yml
+|4,55,18,23,1610096973,"~/pvc-hostpath-pod.yml"
+'8  16  23  ~/pvc-hostpath-pod.yml
+|4,56,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+'9  18  23  ~/pvc-hostpath-pod.yml
+|4,57,18,23,1610096973,"~/pvc-hostpath-pod.yml"
 
 # Jumplist (newest first):
--'  16  31  ~/nodeName.yml
-|4,39,16,31,1609194927,"~/nodeName.yml"
--'  16  28  ~/nodeName.yml
-|4,39,16,28,1609194507,"~/nodeName.yml"
--'  19  16  ~/nodeName.yml
-|4,39,19,16,1609194474,"~/nodeName.yml"
--'  19  16  ~/nodeName.yml
-|4,39,19,16,1609194474,"~/nodeName.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609194466,"~/compute-resources-demo.yml"
--'  19  16  ~/nodeName.yml
-|4,39,19,16,1609193798,"~/nodeName.yml"
--'  19  16  ~/nodeName.yml
-|4,39,19,16,1609193798,"~/nodeName.yml"
--'  1  0  ~/nodeName.yml
-|4,39,1,0,1609193769,"~/nodeName.yml"
--'  1  0  ~/nodeName.yml
-|4,39,1,0,1609193769,"~/nodeName.yml"
--'  1  0  ~/nodeName.yml
-|4,39,1,0,1609193769,"~/nodeName.yml"
--'  1  0  ~/nodeName.yml
-|4,39,1,0,1609193769,"~/nodeName.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  10  21  ~/compute-resources-demo.yml
-|4,39,10,21,1609192417,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  1  0  ~/compute-resources-demo.yml
-|4,39,1,0,1609192385,"~/compute-resources-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  11  30  ~/object-counts-demo.yml
-|4,39,11,30,1609190280,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  1  0  ~/object-counts-demo.yml
-|4,39,1,0,1609190247,"~/object-counts-demo.yml"
--'  22  57  ~/cronjob-ex1.yml
-|4,39,22,57,1608905675,"~/cronjob-ex1.yml"
--'  22  57  ~/cronjob-ex1.yml
-|4,39,22,57,1608905675,"~/cronjob-ex1.yml"
+-'  6  27  ~/pvc-hostpath-pod.yml
+|4,39,6,27,1610112730,"~/pvc-hostpath-pod.yml"
+-'  9  14  ~/pvc-hostpath-pod.yml
+|4,39,9,14,1610112656,"~/pvc-hostpath-pod.yml"
+-'  8  14  ~/pvc-hostpath-pod.yml
+|4,39,8,14,1610097954,"~/pvc-hostpath-pod.yml"
+-'  14  20  ~/pvc-hostpath-pod.yml
+|4,39,14,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097939,"~/pvc-hostpath-pod.yml"
+-'  13  20  ~/pvc-hostpath-pod.yml
+|4,39,13,20,1610097750,"~/pvc-hostpath-pod.yml"
+-'  18  23  ~/pvc-hostpath-pod.yml
+|4,39,18,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  17  23  ~/pvc-hostpath-pod.yml
+|4,39,17,23,1610097554,"~/pvc-hostpath-pod.yml"
+-'  16  23  ~/pvc-hostpath-pod.yml
+|4,39,16,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  15  23  ~/pvc-hostpath-pod.yml
+|4,39,15,23,1610096973,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  1  0  ~/pvc-hostpath-pod.yml
+|4,39,1,0,1610096945,"~/pvc-hostpath-pod.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  12  19  ~/pvc.yml
+|4,39,12,19,1610096441,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  1  0  ~/pvc.yml
+|4,39,1,0,1610096428,"~/pvc.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  16  0  ~/pv.yml
+|4,39,16,0,1610095967,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
+-'  1  0  ~/pv.yml
+|4,39,1,0,1610095803,"~/pv.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/pvc-hostpath-pod.yml
+	*	1610112721	0
+	"	6	27
+	^	6	28
+	.	6	27
+	+	18	23
+	+	10	34
+	+	11	68
+	+	14	20
+	+	9	15
+	+	7	13
+	+	8	0
+	+	6	27
+
+> ~/pvc.yml
+	*	1610096435	0
+	"	12	19
+	^	12	20
+	.	12	19
+	+	12	19
+
+> ~/pv.yml
+	*	1610095960	0
+	"	16	0
+	^	16	0
+	.	16	0
+	+	16	0
+
+> ~/vol-emptyDir-ex2.yml
+	*	1610095260	0
+	"	33	15
+	^	33	16
+	.	33	15
+	+	33	15
+
+> ~/vol-emptyDir-ex1.yml
+	*	1610095156	0
+	"	18	16
+	^	18	17
+	.	18	16
+	+	1	14
+	+	18	16
+
+> ~/lp-nginx-pod.yml
+	*	1609885342	0
+	"	21	21
+	^	21	22
+	.	21	21
+	+	21	21
+
+> ~/rp-nginx-pod.yml
+	*	1609884845	0
+	"	17	15
+	^	17	16
+	.	17	16
+	+	21	21
+	+	17	16
+
+> ~/tolerations-pod.yml
+	*	1609878766	0
+	"	19	23
+	^	19	24
+	.	19	23
+	+	23	17
+	+	17	17
+	+	19	23
+
+> ~/LabelNode.yml
+	*	1609875005	0
+	"	13	13
+	^	13	14
+	.	13	13
+	+	13	13
+
+> ~/nodeSelector-pod.yml
+	*	1609860448	0
+	"	20	16
+	^	20	17
+	.	20	16
+	+	20	16
 
 > ~/nodeName.yml
 	*	1609194910	0

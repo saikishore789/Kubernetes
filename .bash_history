@@ -287,3 +287,103 @@ vi nodeName.yml
 kubectl create -f nodeName.yml
 kubectl get pods -o wide
 kubectl delete pod pod
+ls
+kubectl get pods -o wide
+kubectl delete pods 
+kubectl delete pods --all
+kubectl get pods -o wide
+kubectl get deploy -o wide
+kubectl delete deploy --all
+kubectl get deploy -o wide
+kubectl get rs -o wide
+kubectl get svc -o wide
+kubectl delete svc kubeserve-svc
+kubectl get svc -o wide
+kubectl delete pods --all
+kubcetl create -f nodeName.yml
+kubcetl apply -f nodeName.yml
+kubectl create -f nodeName.yml
+kubectl get pods -o wide
+kubectl get pods name=app
+kubectl get pods name= app
+kubectl describe deploy kubeserve
+kubectl get pods app=kubeserve
+kubectl get pods -o wide
+kubectl get nodes
+kubectl get pods
+kubectl get pods -o wide
+ls
+vi nodeSelector-pod.yml
+kubectl create -f nodeSelector-pod.yml
+kubectl get deploy 
+kubectl delete deploy --all
+kubectl create -f nodeSelector-pod.yml
+kubectl get pods -o wide
+kubectl delete deploy --all
+kubectl create -f nodeSelector-pod.yml
+kubectl get pods "colour=green"
+kubectl delete deploy --all
+kubecl get nodes
+kubectl get nodes
+kubectl label node ip-172-31-45-156 app=sai
+kubectl get nodes
+kubectl describe node ip-172-31-45-156
+kubectl get nodes --show-labels
+vi LabelNode.yml
+kubectl create -f LabelNode.yml
+kubectl get pods -o wide
+kubectl delete deploy --all
+ls
+kubectl get nodes 
+vi rp-nginx-pod.yml
+kubectl create -f  rp-nginx-pod.yml
+kubectl get pods
+kubectl expose pod rp-nginx-demo --name rpsvc --port 80 --type NodePort
+kubectl get pods
+kubectl describe pod rp-nginx-demo
+kubectl get svc
+kubectl delete pods --all
+vi rp-nginx-pod.yml
+kubectl create -f  rp-nginx-pod.yml
+kubectl get pods
+kubectl expose pod rp-nginx-demo --name rpsvc1 --port 80 --type NodePort
+kubectl get svc
+kubectl describe svc rpsvc1
+kubectl taint node ip-172-31-46-225 per=pol:NoSchedule-
+kubectl get nodes
+kubectl describe node ip-172-31-4-206 | grep taint
+kubectl describe node ip-172-31-4-206 | grep -i taint
+kubectl get nodes
+vi lp-nginx-pod.yml
+kubectl create -f  lp-nginx-pod.yml
+kubectl get pods -o wide
+vi pvc.yml
+kubectl get pvc
+kubectl create -f pvc.yml
+kubectl get pvc
+kubectl get nodes
+vi vol-emptyDir-ex1.yml
+kubectl create -f vol-emptyDir-ex1.yml
+kubectl get pods 
+kubectl delete pods  --all
+vi vol-emptyDir-ex2.yml
+kub1ectl create -f vol-emptyDir-ex2.yml
+kubectl create -f vol-emptyDir-ex2.yml
+kubectl get pods 
+kubectl get deploy
+kubectl get svc
+kubectl delete svc rpsvc rpsvc1
+kubectl get vol
+kubectl describe pod myvolumes-pod
+kubectl get pods -o wide11
+kubectl get pods -o wide
+vi pv.yml
+kub1ectl create -f  pv.yml
+kubectl create -f  pv.yml
+kubectl get pv
+cat pv.yml
+kubectl get pv
+kubectl get pvc
+kubectl get pods
+kubectl exec -it pvc-pod -- sh
+exit
