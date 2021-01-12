@@ -405,3 +405,75 @@ cat pvc-hostpath-pod.yml
 kubectl create -f 1111pvc-hostpath-pod.yml
 kubectl create -f pvc-hostpath-pod.yml
 kubectl get pods -o wide
+git add .
+git commit -m "storage class"
+git push origin master
+kubectl get pods
+vi pvc-sc-standard.yml
+kubectl create -f pvc-sc-standard.yml
+kubectl get pods
+kubectl get pv
+kubectl get pvc
+cat pvc-sc-standard.yml
+kubectl get pvc
+kubectl get pv
+kubectl get pvc
+vi pod-sc.yml
+kubectl get nodes
+mkdir -p configure-pod-container/configmap/
+wget https://kubernetes.io/examples/configmap/game.properties -O configure-pod-container/configmap/game.properties
+ls
+ls -l
+cd configure-pod-container/configmap
+ls
+cat ui.properties
+cat game.properties 
+cd
+kubectl create configmap game-config --from-file=configure-pod-container/configmap/
+kubectl get cm
+kubectl get configmaps game-config -o yaml
+kubectl get pods
+vi cm-pod.yml
+kubectl create -f  cm-pod.yml
+kubectl get pods
+kubectl exec -it cm-env-var-pod -- bash
+vi cm-pod-1.yml
+kubectl create -f  cm-pod-1.yml
+vi cm-pod-1.yml
+kubectl create -f  cm-pod-1.yml
+kubectl get pods
+kubectl exec -it cm-env-var-pod-1 -- ls -l /mydata
+kubectl exec -it cm-env-var-pod-1 --  cat /mydata/game.properties
+kubectl get pods
+kubect delete pods pvc-pod
+kubectl delete pods pvc-pod
+vi secret-pod.yml
+vi mydat.props
+kubectl create secret generic test-secret --from-file='mydat.props'
+kubectl get secret
+vi secret-pod.yml
+kubectl create -f  secret-pod.yml
+kubectl get pods
+kubectl exec -it cm-env-var-pod-2 --  cat /mydata/mydat.props
+kubectl delete pods cm-env-var-pod-2
+vi secret-pod.yml
+kubectl create -f  secret-pod.yml
+kubectl get pods
+kubectl exec -it sec-var-pod --  cat /mydata/mydat.props
+kubectl get secret
+kubectl describe secret test-secret
+kubectl exec -it sec-var-pod --  ls -la /mydata
+kubectl exec -it sec-var-pod --  ls -a /mydata
+kubectl exec -it sec-var-pod --  ls -l /mydata
+kubectl exec -it sec-var-pod --  cat /mydata/mydat.props
+cd /etc
+ls -l
+cd kubernetes
+ls
+cd 
+sudo su -
+kubectl config get-contexts
+kubectl  config --kubeconfig=/etc/kubernetes/admin.conf get-contexts
+sudo kubectl  config --kubeconfig=/etc/kubernetes/admin.conf get-contexts
+mkdir 
+sudo su -

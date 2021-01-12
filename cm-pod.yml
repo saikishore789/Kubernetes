@@ -1,0 +1,11 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: cm-env-var-pod
+spec:
+  containers:
+    - name: env-var-configmap
+      image: nginx
+      envFrom:
+        - configMapRef:
+            name: game-config
