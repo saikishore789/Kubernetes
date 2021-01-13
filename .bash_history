@@ -477,3 +477,94 @@ kubectl  config --kubeconfig=/etc/kubernetes/admin.conf get-contexts
 sudo kubectl  config --kubeconfig=/etc/kubernetes/admin.conf get-contexts
 mkdir 
 sudo su -
+ls -l
+ls -a
+kubectl get pods
+kubectl get ns
+vi dashboard-secure.yml
+kubectl create -f dashboard-secure.yml
+kubectl get pods
+kubectl get svc
+kubectl get sa
+kubectl describe sa kubernetes-dashboard
+kubectl describe token kubernetes-dashboard-token-nrkp7
+kubectl describe secret kubernetes-dashboard-token-nrkp7
+kubectl create sa rsk
+kubectl describe sa rsk
+kubectl describe secret rsk-token-plbg8
+kubectl create clusterrolebinding naresh-crbn --serviceaccount=rsk --cluster-role=view
+kubectl create clusterrolebinding naresh-crbn --serviceaccount=rsk --clusterrole=view
+kubectl create clusterrolebinding naresh-crbn --serviceaccount=default:rsk --clusterrole=view
+git add .
+git commit -m "security and dashboard"
+git push origin master
+sudo su -
+kubectl get nodes
+kubectl get pods
+kubectl delete pods --all
+vi statefulset-ex.yml
+kubectl create -f statefulset-ex.yml
+kubectl get pods
+kubectl rum mypod --image=lerndevops/netshoot -- sleep 3600
+kubectl run mypod --image=lerndevops/netshoot -- sleep 3600
+kubectl get pods
+kubectl get svc
+kubectl get pods
+kubectl exec mypoda -- nslookup redis
+kubectl exec mypod -- nslookup redis
+kubectl get pods -o wide
+kubectl exec mypod -- nslookup 10.44.0.1
+kubectl exec mypod -- nslookup 10.44.0.4
+history
+kubectl get pods -n kube-system
+kubectl get  ns
+kubectl get pods -n kube-node-lease
+kubectl get pods -n kubernetes-dashboard
+kubectl get pods -n kube-system
+kubectl get pods -n kube-public
+kubectl get pods -n kube-public -o wide
+kubectl get pods -n kube-system -o wide
+cd /etc/kubernetes/
+cd manifests
+ls
+cat kube-apiserver.yaml
+sudo cat kube-apiserver.yaml
+export RELEASE="3.3.13"
+wget https://github.com/etcd-io/etcd/releases/download/v${RELEASE}/etcd-v${RELEASE}-linux-amd64.tar.gz
+cd
+sudo wget https://github.com/etcd-io/etcd/releases/download/v${RELEASE}/etcd-v${RELEASE}-linux-amd64.tar.gz
+tar xvf etcd-v${RELEASE}-linux-amd64.tar.gz
+cd etcd-v${RELEASE}-linux-amd64
+sudo mv etcdctl /usr/local/bin
+cd
+etcdctl --version
+cd /etc/kubernetes/manifests
+ls
+sudo cat etcd.yaml
+172.31.4.206:2379
+cd
+ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot save /tmp/etcd-bakup.db
+sudo ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot save /tmp/etcd-bakup.db
+ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot save /tmp/etcd-bakup.db
+sudo ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot status -w table /tmp/etcd/-backup.db
+sudo ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot status -w table /tmp/etcd/-bakup.db
+sudo ETCDCTL_API=3 etcdctl --endpoints=172.31.4.206:2379 --cacert /etc/kubernetes/pki/etcd/ca.crt --cert /etc/kubernetes/pki/etcd/server.crt --key /etc/kubernetes/pki/etcd/server.key snapshot status -w table /tmp/etcd-bakup.db
+vi my-schedular.yml
+kub1ectl create -f  my-schedular.yml
+kubectl create -f  my-schedular.yml
+kubectl get pods -n kube-system
+kubectl edit clusterrolebinding system:volume-scheduler
+kubectl get pods -n kube-system
+vi test-scheduler.yml
+kubectl create -f test-scheduler.yml
+kubectl get pods 
+kubectl describe pods myschedulerdemo 
+kubectl run mypod1 --image=nginx --dry-run=client -o yaml
+kubectl run mypod1 --image=nginx --dry-run=client -o yaml >> /tmp/pod.yml
+cat pod.yml
+vi pod.yml
+kubectl apply -f  pod.yml
+vi pod.yml
+kubectl apply -f  pod.yml
+kubectl get pods 
+kubectl describe pod pod1

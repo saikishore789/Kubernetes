@@ -5,6 +5,7 @@ metadata:
   labels: 
      app: tomcat
 spec:
+  schedulerName: my-scheduler       
   containers:
   - name: tomcat
     image: tomcat

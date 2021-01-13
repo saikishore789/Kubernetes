@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1610436007,,"wq!"
+|2,0,1610572339,,"wq!"
 :%d
 |2,0,1610095149,,"%d"
 :q!
@@ -27,7 +27,7 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"1	LINE	0
 	piVersion: v1
 	kind: Pod
 	metadata:
@@ -45,233 +45,303 @@
 	         mountPath: /usr/share/nginx/html/
 	  volumes:
 	   - name: nginx-
-|3,1,1,1,17,0,1610095149,"piVersion: v1","kind: Pod","metadata:","  name: nginx","  labels:","     tier: frontend","spec:","  containers:","   - name: nginx","     image: nginx","     ports:","      - containerPort: 80","     volumeMounts:","       - name: nginx-vol","         mountPath: /usr/share/nginx/html/","  volumes:","   - name: nginx-"
+|3,0,1,1,17,0,1610095149,"piVersion: v1","kind: Pod","metadata:","  name: nginx","  labels:","     tier: frontend","spec:","  containers:","   - name: nginx","     image: nginx","     ports:","      - containerPort: 80","     volumeMounts:","       - name: nginx-vol","         mountPath: /usr/share/nginx/html/","  volumes:","   - name: nginx-"
+""-	CHAR	0
+	 schedulerName: my-scheduler     
+|3,1,36,0,1,0,1610569646," schedulerName: my-scheduler     "
 
 # File marks:
-'0  273  27  ~/dashboard-secure.yml
-|4,48,273,27,1610436007,"~/dashboard-secure.yml"
-'1  4  10  ~/secret-pod.yml
-|4,49,4,10,1610393566,"~/secret-pod.yml"
-'2  4  23  ~/secret-pod.yml
-|4,50,4,23,1610393309,"~/secret-pod.yml"
-'3  2  10  ~/mydat.props
-|4,51,2,10,1610393118,"~/mydat.props"
-'4  15  9  ~/secret-pod.yml
-|4,52,15,9,1610393072,"~/secret-pod.yml"
-'5  15  9  ~/secret-pod.yml
-|4,53,15,9,1610393072,"~/secret-pod.yml"
-'6  15  9  ~/secret-pod.yml
-|4,54,15,9,1610393072,"~/secret-pod.yml"
-'7  15  9  ~/secret-pod.yml
-|4,55,15,9,1610393072,"~/secret-pod.yml"
-'8  9  6  ~/cm-pod-1.yml
-|4,56,9,6,1610372167,"~/cm-pod-1.yml"
-'9  4  23  ~/cm-pod-1.yml
-|4,57,4,23,1610372094,"~/cm-pod-1.yml"
+'0  22  26  ~/ingress-rule.yml
+|4,48,22,26,1610572339,"~/ingress-rule.yml"
+'1  99  12  ~/deploy-app.yml
+|4,49,99,12,1610572252,"~/deploy-app.yml"
+'2  22  43  ~/service-nodeport.yaml
+|4,50,22,43,1610572033,"~/service-nodeport.yaml"
+'3  294  10  ~/nginx-ing-controller.yaml
+|4,51,294,10,1610571884,"~/nginx-ing-controller.yaml"
+'4  293  14  ~/nginx-ing-controller.yaml
+|4,52,293,14,1610571791,"~/nginx-ing-controller.yaml"
+'5  293  14  ~/nginx-ing-controller.yaml
+|4,53,293,14,1610571791,"~/nginx-ing-controller.yaml"
+'6  8  28  ~/pod.yml
+|4,54,8,28,1610569686,"~/pod.yml"
+'7  9  41  ~/pod.yml
+|4,55,9,41,1610569603,"~/pod.yml"
+'8  9  28  ~/pod.yml
+|4,56,9,28,1610569603,"~/pod.yml"
+'9  13  24  ~/test-scheduler.yml
+|4,57,13,24,1610569414,"~/test-scheduler.yml"
 
 # Jumplist (newest first):
--'  273  27  ~/dashboard-secure.yml
-|4,39,273,27,1610436007,"~/dashboard-secure.yml"
--'  1  0  ~/dashboard-secure.yml
-|4,39,1,0,1610435982,"~/dashboard-secure.yml"
--'  4  10  ~/secret-pod.yml
-|4,39,4,10,1610393566,"~/secret-pod.yml"
--'  4  10  ~/secret-pod.yml
-|4,39,4,10,1610393566,"~/secret-pod.yml"
--'  4  23  ~/secret-pod.yml
-|4,39,4,23,1610393309,"~/secret-pod.yml"
--'  4  23  ~/secret-pod.yml
-|4,39,4,23,1610393309,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393219,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393219,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393219,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393219,"~/secret-pod.yml"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  2  10  ~/mydat.props
-|4,39,2,10,1610393118,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  1  0  ~/mydat.props
-|4,39,1,0,1610393090,"~/mydat.props"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393072,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393072,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393072,"~/secret-pod.yml"
--'  15  9  ~/secret-pod.yml
-|4,39,15,9,1610393072,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  1  0  ~/secret-pod.yml
-|4,39,1,0,1610392471,"~/secret-pod.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  9  6  ~/cm-pod-1.yml
-|4,39,9,6,1610372167,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
--'  4  23  ~/cm-pod-1.yml
-|4,39,4,23,1610372115,"~/cm-pod-1.yml"
+-'  22  26  ~/ingress-rule.yml
+|4,39,22,26,1610572339,"~/ingress-rule.yml"
+-'  1  0  ~/ingress-rule.yml
+|4,39,1,0,1610572317,"~/ingress-rule.yml"
+-'  99  12  ~/deploy-app.yml
+|4,39,99,12,1610572252,"~/deploy-app.yml"
+-'  99  12  ~/deploy-app.yml
+|4,39,99,12,1610572252,"~/deploy-app.yml"
+-'  1  0  ~/deploy-app.yml
+|4,39,1,0,1610572220,"~/deploy-app.yml"
+-'  1  0  ~/deploy-app.yml
+|4,39,1,0,1610572220,"~/deploy-app.yml"
+-'  22  43  ~/service-nodeport.yaml
+|4,39,22,43,1610572033,"~/service-nodeport.yaml"
+-'  22  43  ~/service-nodeport.yaml
+|4,39,22,43,1610572033,"~/service-nodeport.yaml"
+-'  22  43  ~/service-nodeport.yaml
+|4,39,22,43,1610572033,"~/service-nodeport.yaml"
+-'  22  43  ~/service-nodeport.yaml
+|4,39,22,43,1610572033,"~/service-nodeport.yaml"
+-'  1  0  ~/service-nodeport.yaml
+|4,39,1,0,1610572012,"~/service-nodeport.yaml"
+-'  1  0  ~/service-nodeport.yaml
+|4,39,1,0,1610572012,"~/service-nodeport.yaml"
+-'  1  0  ~/service-nodeport.yaml
+|4,39,1,0,1610572012,"~/service-nodeport.yaml"
+-'  1  0  ~/service-nodeport.yaml
+|4,39,1,0,1610572012,"~/service-nodeport.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  294  10  ~/nginx-ing-controller.yaml
+|4,39,294,10,1610571884,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571833,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  293  14  ~/nginx-ing-controller.yaml
+|4,39,293,14,1610571791,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  1  0  ~/nginx-ing-controller.yaml
+|4,39,1,0,1610571761,"~/nginx-ing-controller.yaml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  8  28  ~/pod.yml
+|4,39,8,28,1610569686,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
+-'  9  41  ~/pod.yml
+|4,39,9,41,1610569636,"~/pod.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/ingress-rule.yml
+	*	1610572333	0
+	"	22	26
+	^	22	27
+	.	22	26
+	+	22	26
+
+> ~/deploy-app.yml
+	*	1610572246	0
+	"	99	12
+	^	99	13
+	.	99	12
+	+	99	12
+
+> ~/service-nodeport.yaml
+	*	1610572026	0
+	"	22	43
+	^	22	44
+	.	22	43
+	+	22	43
+
+> ~/nginx-ing-controller.yaml
+	*	1610571878	0
+	"	294	10
+	^	294	11
+	.	294	10
+	+	293	15
+	+	294	10
+
+> ~/pod.yml
+	*	1610569684	0
+	"	8	28
+	^	8	29
+	.	8	28
+	+	13	25
+	+	9	13
+	+	10	0
+	+	8	28
+
+> ~/test-scheduler.yml
+	*	1610569407	0
+	"	13	24
+	^	13	25
+	.	13	24
+	+	13	24
+
+> /tmp/kubectl-edit-xah5t.yaml
+	*	1610569345	0
+	"	27	0
+	^	27	0
+	.	26	24
+	+	26	24
+
+> ~/my-schedular.yml
+	*	1610569201	0
+	"	67	16
+	^	67	17
+	.	67	16
+	+	67	16
+
+> ~/statefulset-ex.yml
+	*	1610560997	0
+	"	37	13
+	^	37	14
+	.	37	13
+	+	37	13
 
 > ~/dashboard-secure.yml
 	*	1610436000	0
@@ -605,10 +675,3 @@
 	^	11	34
 	.	11	34
 	+	11	34
-
-> ~/pod.yml
-	*	1608795843	0
-	"	12	25
-	^	12	26
-	.	12	25
-	+	12	25
