@@ -6,6 +6,7 @@ metadata:
 spec:
   selector:
     app: myapp
+#    replica: blue
     replica: green
   ports:
     - protocol: TCP
