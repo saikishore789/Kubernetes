@@ -11,3 +11,4 @@ configMapGenerator:
     behavior: merge
     literals:
       - database_host=dev-db.example.com
+
