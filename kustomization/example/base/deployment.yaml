@@ -1,0 +1,21 @@
+apiversion: apps/v1
+kind: Deployment  
+metadata:
+  name: web-app 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-app
+  template:
+    metadata:
+      labels:
+        app: web-app
+    spec:
+      containers:
+      - name: web-app
+        image: nginx:1.19
+        valueFrom:
+          configMapKeyRef:
+            name: app-config
+            key: database_host
