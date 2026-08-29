@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: probe-demo
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: probe-demo
+
+  template:
+    metadata:
+      labels:
+        app: probe-demo
+
+    spec:
+      containers:
+        - name: app
+          image: probe-demo:v1
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /ready
+              port: 8080
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 3
+          
+          livenessProbe:
+            httpGet:
+              path: /live
+              port: 8080  
+            periodSeconds: 5
+            timeoutSeconds: 2 
+            failureThreshold: 3
