@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: good-app
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: good-app
+
+  template:
+
+    metadata:
+      labels:
+        app: good-app
+
+    spec:
+
+      containers:
+
+        - name: app
+
+          image: probe-app:v1
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 8080
+
+          env:
+
+            - name: DB_URL
+              value: "http://fake-db:8080/health"
+
+          # GOOD LIVENESS
+          #
+          # Does NOT call database.
+
+          livenessProbe:
+
+            httpGet:
+              path: /live
+              port: 8080
+
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 3
+
+          # READINESS can depend on dependency
+          
+          readinessProbe:
+
+            httpGet:
+              path: /ready
+              port: 8080
+
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 2

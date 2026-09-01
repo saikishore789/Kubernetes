@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: fake-db
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: fake-db
+
+  template:
+    metadata:
+      labels:
+        app: fake-db
+
+    spec:
+      containers:
+        - name: fake-db
+          image: fake-db:v1
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 8080

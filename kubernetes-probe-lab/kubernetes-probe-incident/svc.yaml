@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: fake-db
+
+spec:
+  selector:
+    app: fake-db
+
+  ports:
+    - port: 8080
+      targetPort: 8080

@@ -1,0 +1,64 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: bad-app
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: bad-app
+
+  template:
+
+    metadata:
+      labels:
+        app: bad-app
+
+    spec:
+
+      containers:
+
+        - name: app
+
+          image: probe-app:v1
+          imagePullPolicy: IfNotPresent
+
+          ports:
+            - containerPort: 8080
+
+          env:
+            - name: DB_URL
+              value: "http://fake-db:8080/health"
+
+          # BAD LIVENESS PROBE
+          #
+          # It checks the database.
+          #
+          # Database problem
+          #       ↓
+          # Liveness failure
+          #       ↓
+          # Container restart
+
+          livenessProbe:
+
+            httpGet:
+              path: /ready
+              port: 8080
+
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 2
+
+          readinessProbe:
+
+            httpGet:
+              path: /ready
+              port: 8080
+
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 2
