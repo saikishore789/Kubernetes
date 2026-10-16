@@ -16,13 +16,13 @@ spec:
                   - ssd
                   - hdd
       preferredDuringSchedulingIgnoredDuringExecution:
-        - weight: 100
+        - weight: 50
           preference:
             matchExpressions:
               - key: disktype
                 operator: In
                 values:
-                  - ssd
+                  - hdd
   containers:
     - name: pause
       image: registry.k8s.io/pause:3.10
