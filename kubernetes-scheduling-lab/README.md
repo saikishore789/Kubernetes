@@ -1,6 +1,6 @@
 # Kubernetes Scheduling Lab
 
-This lab focuses on Kubernetes pod scheduling features: nodeSelector, node affinity, pod affinity/anti-affinity, and taints & tolerations. Each example is self-contained and maps to a real YAML in this folder.
+This lab focuses on Kubernetes pod scheduling features: nodeSelector, node affinity, pod affinity/anti-affinity, and taints & tolerations. Each example is self-contained and maps to a real YAML in this folder
 
 ---
 
