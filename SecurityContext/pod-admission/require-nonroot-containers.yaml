@@ -1,0 +1,109 @@
+
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-nonroot-containers
+spec:
+  validationActions:
+    - Deny
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: ["v1"]
+        operations: ["CREATE", "UPDATE"]
+        resources: ["pods"]
+  validations:
+    - expression: >-
+        (
+          !has(object.spec.securityContext) ||
+          !has(object.spec.securityContext.runAsUser) ||
+          object.spec.securityContext.runAsUser != 0
+        ) &&
+        (
+          !has(object.spec.securityContext) ||
+          !has(object.spec.securityContext.runAsNonRoot) ||
+          object.spec.securityContext.runAsNonRoot == true
+        ) &&
+        object.spec.containers.all(c,
+          (
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsNonRoot)
+                ? c.securityContext.runAsNonRoot
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsNonRoot)
+                      ? object.spec.securityContext.runAsNonRoot
+                      : false
+                  )
+            ) == true
+          ) &&
+          (
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsUser)
+                ? c.securityContext.runAsUser
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsUser)
+                      ? object.spec.securityContext.runAsUser
+                      : -1
+                  )
+            ) != 0
+          )
+        ) &&
+        (
+          !has(object.spec.initContainers) ||
+          object.spec.initContainers.all(c,
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsNonRoot)
+                ? c.securityContext.runAsNonRoot
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsNonRoot)
+                      ? object.spec.securityContext.runAsNonRoot
+                      : false
+                  )
+            ) == true &&
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsUser)
+                ? c.securityContext.runAsUser
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsUser)
+                      ? object.spec.securityContext.runAsUser
+                      : -1
+                  )
+            ) != 0
+          )
+        ) &&
+        (
+          !has(object.spec.ephemeralContainers) ||
+          object.spec.ephemeralContainers.all(c,
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsNonRoot)
+                ? c.securityContext.runAsNonRoot
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsNonRoot)
+                      ? object.spec.securityContext.runAsNonRoot
+                      : false
+                  )
+            ) == true &&
+            (
+              has(c.securityContext) &&
+              has(c.securityContext.runAsUser)
+                ? c.securityContext.runAsUser
+                : (
+                    has(object.spec.securityContext) &&
+                    has(object.spec.securityContext.runAsUser)
+                      ? object.spec.securityContext.runAsUser
+                      : -1
+                  )
+            ) != 0
+          )
+        )
+      message: "All containers must explicitly runAsNonRoot: true and must not set runAsUser: 0. Configure a non-root securityContext at Pod or container level."

@@ -1,0 +1,23 @@
+
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: require-appname-label
+spec:
+  validationActions:
+    - Deny
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: ["v1"]
+        operations: ["CREATE", "UPDATE"]
+        resources: ["pods"]
+  matchConditions:
+    - name: default-namespace-only
+      expression: "object.metadata.namespace == 'default'"
+  validations:
+    - expression: >-
+        has(object.metadata.labels) &&
+        'AppName' in object.metadata.labels &&
+        object.metadata.labels['AppName'] != ''
+      message: "Every Pod must have a non-empty AppName label"

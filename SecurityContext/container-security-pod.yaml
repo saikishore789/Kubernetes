@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: secure-container-pod
+spec:
+  containers:
+    - name: webserver
+      image: devopscube/flask-app:1.0
+      ports:
+        - containerPort: 5000
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1001
+        runAsGroup: 3001
+        

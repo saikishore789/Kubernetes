@@ -1,0 +1,20 @@
+
+apiVersion: policies.kyverno.io/v1
+kind: ValidatingPolicy
+metadata:
+  name: block-pods-in-default
+spec:
+  validationActions:
+    - Deny
+  matchConstraints:
+    resourceRules:
+      - apiGroups: [""]
+        apiVersions: ["v1"]
+        operations: ["CREATE"]
+        resources: ["pods"]
+  matchConditions:
+    - name: default-namespace-only
+      expression: "object.metadata.namespace == 'default'"
+  validations:
+    - expression: "false"
+      message: "Pod creation is not allowed in the default namespace. Use a dedicated namespace."
